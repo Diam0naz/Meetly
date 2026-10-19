@@ -1,0 +1,6 @@
+{
+  "name": "Meetly - Meetup Matching & Event Hub",
+  "description": "Mobile-first PWA for small meetups with algorithmic attendee matching, QR check-in, interactive bingo, venue map, and live Open-Meteo weather alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="meetly-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#ea580c" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#meetly-grad)"/>
+  <!-- Two overlapping connection circles with gold accent -->
+  <circle cx="206" cy="226" r="86" fill="#FFFFFF" fill-opacity="0.95" filter="url(#shadow)"/>
+  <circle cx="306" cy="286" r="86" fill="#FDE047" fill-opacity="0.95"/>
+  <circle cx="206" cy="226" r="28" fill="#ea580c"/>
+  <circle cx="306" cy="286" r="28" fill="#d97706"/>
+  <path d="M256 180 L256 220 M236 200 L276 200" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+</svg>
